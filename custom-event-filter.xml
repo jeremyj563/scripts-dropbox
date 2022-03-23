@@ -1,0 +1,5 @@
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-GroupPolicy/Operational">
+    <Select Path="Microsoft-Windows-GroupPolicy/Operational">*[System[( (EventID &gt;= 8004 and EventID &lt;= 8007) )]]</Select>
+  </Query>
+</QueryList>
